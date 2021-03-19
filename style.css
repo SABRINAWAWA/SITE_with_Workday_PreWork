@@ -1,0 +1,139 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  color: #373fff;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background-color: lightgreen;
+}
+
+#button1:active,
+#button1.lit {
+  background-color: green;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg2.jpg?v=1616105227927");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button2 {
+  background-color: lightblue;
+}
+
+#button2:active,
+#button2.lit {
+  background-color: blue;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg3.jpg?v=1616105205322");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button3 {
+  background-color: pink;
+}
+
+#button3:active,
+#button3.lit {
+  background-color: red;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg1.jpg?v=1616105230539");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button4 {
+  background-color: lightyellow;
+}
+
+#button4:active,
+#button4.lit {
+  background-color: yellow;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg4.jpg?v=1616105202175");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button5 {
+  background-color: #bdb2ff;
+}
+
+#button5:active,
+#button5.lit {
+  background-color: purple;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg5.jpg?v=1616105198330");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button6 {
+  background-color: #ffd7ba;
+}
+
+#button6:active,
+#button6.lit {
+  background-color: orange;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg6.jpg?v=1616105195426");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button7 {
+  background-color: #dde5b6;
+}
+
+#button7:active,
+#button7.lit {
+  background-color: #d4d700;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg8.jpg?v=1616105192420");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button8 {
+  background-color: #6d6875;
+}
+
+#button8:active,
+#button8.lit {
+  background-color: #03071e;
+  background-image: url("https://cdn.glitch.com/6748b3cd-0ddf-4ca9-b4d2-9e300dd5caaf%2Fimg7.jpg?v=1616105189051");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button > img {
+  max-width: 100%;
+  max-height: 100%;
+  visibility: hidden;
+}
